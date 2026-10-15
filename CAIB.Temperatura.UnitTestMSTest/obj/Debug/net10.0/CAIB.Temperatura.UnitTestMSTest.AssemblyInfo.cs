@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CAIB.Temperatura.UnitTestMSTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef618ca9c1ddeefb6e0c6a60e231b450df8e7b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eac259487dc42eee67efb30d45a20fd3d227c0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CAIB.Temperatura.UnitTestMSTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CAIB.Temperatura.UnitTestMSTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
