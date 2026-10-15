@@ -1,2 +1,4 @@
 <Solution>
+  <Project Path="CAIB.Temperatura.UnitTestMSTest/CAIB.Temperatura.UnitTestMSTest.csproj" />
+  <Project Path="CAIB.Temperatura/CAIB.Temperatura.csproj" />
 </Solution>
