@@ -1,0 +1,6 @@
+@StyleBookBarberBD_HostAddress = http://localhost:5211
+
+GET {{StyleBookBarberBD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+   
+    <PackageReference Include="AutoMapper" Version="16.2.0" />
+   
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <!-- Excluye las carpetas de proyectos de prueba para que no se compilen
+       dentro de la API (estan anidadas en la raiz del proyecto). -->
+  <ItemGroup>
+    <Compile Remove="StyleBookBarberBD.UnitTests\**" />
+    <Compile Remove="StyleBookBarberBD.IntegrationTests\**" />
+    <Content Remove="StyleBookBarberBD.UnitTests\**" />
+    <Content Remove="StyleBookBarberBD.IntegrationTests\**" />
+    <EmbeddedResource Remove="StyleBookBarberBD.UnitTests\**" />
+    <EmbeddedResource Remove="StyleBookBarberBD.IntegrationTests\**" />
+    <None Remove="StyleBookBarberBD.UnitTests\**" />
+    <None Remove="StyleBookBarberBD.IntegrationTests\**" />
+  </ItemGroup>
+
+</Project>

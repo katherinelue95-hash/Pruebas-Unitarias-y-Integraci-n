@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="StyleBookBarberBD.csproj" />
+  <Project Path="StyleBookBarberBD.IntegrationTests/StyleBookBarberBD.IntegrationTests.csproj" />
+  <Project Path="StyleBookBarberBD.UnitTests/StyleBookBarberBD.UnitTests.csproj" />
+</Solution>
